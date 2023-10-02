@@ -1,0 +1,172 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    display: inline;
+}
+body{
+     background-color: black; 
+    width: 100%;
+}
+.navbar{
+ display: inline-block;
+  height: 70vh;
+  width: 100%;
+  background-size: center;
+  background-position: center;
+        
+    
+ }
+ nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 40px;
+}  
+.logo{
+    color: white;
+    font-size: 23px;
+}
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+   
+   
+}
+nav button{
+    display:inline-block ;
+}
+
+
+.two i{ color: aquamarine;}
+.right button{
+    background-color: aquamarine;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+#content{
+    width: 100%;
+    display: inline-block;
+    position: relative;
+    
+}
+#content .text{
+    display: inline-block;
+    margin: 0 auto;
+    position: absolute;
+    top: -480px;
+    right: 40rem;
+}
+    
+#content .text h1{
+    color: white;
+    font-size: 60px;
+    display: inline-block;
+}
+#content .text span{
+    color: rgba(255, 255, 255, 0.491);
+    font-size: 15px;
+    display: inline-block;
+    margin-left: 20px;
+}
+.box{
+    border: 1px solid grey;
+    padding: 17px 13px;
+    border-radius: 30px;
+    color: white;
+    position: absolute;
+    top: -300px;
+    right: 52rem;
+
+}
+.land span{
+      font-size: 10px;
+    color: rgba(255, 255, 255, 0.355);
+    position: absolute;
+    top: -240px;
+    right: 51rem;
+    letter-spacing: 2px;
+
+
+}
+.red{
+    background-color: brown ;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    bottom: -100px;
+    right: 75rem;
+    overflow: hidden;
+   
+
+
+}
+.leftImg{
+    width: 70%;
+    height: 80%;
+    border-radius: 15%;
+    position: absolute;
+    bottom: -1px;
+    right: 50px;
+    
+    
+   
+}
+.orImg{
+    width: 75%;
+    height: 70%;
+    border-radius: 15%;
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+
+}
+.blue{
+    background-color: rgb(35, 65, 197) ;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    bottom: -260px;
+    right: 38rem;
+    overflow: hidden;
+
+}
+.yellow{
+    background-color: rgb(155, 165, 42) ;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    bottom: -100px;
+    right: 10rem;
+    overflow: hidden;
+
+}
+.rightImg{
+    width: 70%;
+    height: 80%;
+    border-radius: 15%;
+    position: absolute;
+    bottom: -15px;
+    right: -8px;
+
+}
+
+
+    
